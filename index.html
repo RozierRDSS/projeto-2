@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Sei não</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>vc acorda numa viela na favela depois de uma ficar loucão na balada, oq vc vai fazer?</p>
+            <button class="btn-proximo" data-proximo="1">Ir tomar mais uma</button>
+            <button class="btn-proximo" data-proximo="2">vc decide tentar encontrar sua casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>voce bebe muito mais, e fica com uma dorzona de cabeça, oq vc faz a seguir?</p>
+            <button class="btn-proximo" data-proximo="3"></button>
+            <button class="btn-proximo" data-proximo="4">bebe mais</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>vc está meio desnorteado, quer ir pela esquerda ou pela direita?</p>
+            <button class="btn-proximo" data-proximo="5">esquerda</button>
+            <button class="btn-proximo" data-proximo="6">direita</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>mano, vc já bebeu MUUUUUUUUUito, e está mais loucão que tudo, oq vc faz?</p>
+            <button class="btn-proximo" data-proximo="7">vai pro cemitério</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>vc bebeu tanto que morreu</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>vc encontra a rua da sua casa, quer ir até lá?</p>
+            <button class="btn-proximo" data-proximo="7">sim</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>vc acha um uma nota de 100 reais no chão</p>
+            <button class="btn-proximo" data-proximo="8">legal.(vc continua explorando)</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Vc está chegando perto, porém tem um cachorro raivoso ao lado, oq vc decide fazer?</p>
+            <button class="btn-proximo" data-proximo="9">ignorar o cachorro</button>
+            <button class="btn-proximo" data-proximo="10">enfrenta-lo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>vc sente algo estranho, olha pra trás e esta a rua da sua casa</p>
+            <button class="btn-proximo" data-proximo="7">ir para a rua</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>o cachorro fica na paz, e vc chega em casa, porém tem uma porta estranha na sua sala</p>
+            <button class="btn-proximo" data-proximo="11">entrar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>o cachorro fica gigante, e te da um porradão tão forte, que vc acorda novamente, porém em sua casa</p>
+            <button class="btn-proximo" data-proximo="12">vc encontra uma porta estranha e entra nela</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>vc está num quarto gamer e é feliz</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>vc finalmente está em casa</p>
+            <button class="btn-proximo" data-proximo="11">entrar numa porta estranha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
